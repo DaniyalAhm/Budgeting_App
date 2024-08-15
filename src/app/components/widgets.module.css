@@ -1,0 +1,50 @@
+
+.container {
+    flex: 1; /* Allow the container to grow and fill the available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    background-color: #ffffff1e;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10%;
+
+}
+
+
+.img {
+    width: 100%; /* Ensure the image uses the specified width */
+    margin-bottom: 1%;
+    max-height: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    padding: 10px;
+    margin-bottom: 4%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
+
