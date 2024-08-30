@@ -1,0 +1,6 @@
+00:27:54 [31m[crit:(null)] Failed to create wl_display (Permission denied)[0m
+00:27:54 [32m[info:qt.qpa.plugin][0m Could not load the Qt platform plugin "wayland" in "" even though it was found.
+00:27:54 [32m[info:albert][0m There is another instance of albert running.
+00:28:00 [31m[crit:(null)] Failed to create wl_display (Permission denied)[0m
+00:28:00 [32m[info:qt.qpa.plugin][0m Could not load the Qt platform plugin "wayland" in "" even though it was found.
+00:28:00 [32m[info:albert][0m There is another instance of albert running.

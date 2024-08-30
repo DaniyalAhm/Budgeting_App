@@ -12,7 +12,6 @@ import Add_Card from "./components/Add_Card";
 import { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
-import Signup from "./components/signup_page";
 
 export default function main() {
   const [cards, setCards] = useState([]);
@@ -48,7 +47,6 @@ export default function main() {
      <BrowserRouter>
       <Routes>
         <Route path="/card" element={<Add_Card/>}/>
-        <Route path='/signup' element={<Signup/>} />
 
         {cards.map(card =>{
 

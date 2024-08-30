@@ -6,7 +6,7 @@ CORS(app)
 
 CORS(app, resources={r"/*": {"origins": ["http://localhost:3000/" ]}})
 
-card1= pd.read_csv('/home/daniyal/Frontend-Practice/backend/Credit_Card_Transactions_Data_with_Date.csv')
+card1= pd.read_csv('backend/Credit_Card_Transactions_Data_with_Date.csv')
 def monthly_spending(data, transaction_date_col="Transaction Date", payment_amount_col="Payment Amount"):
     # Ensure the Transaction Date column is in datetime format
     data[transaction_date_col] = pd.to_datetime(data[transaction_date_col])
